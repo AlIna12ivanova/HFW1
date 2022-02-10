@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="68a92da4c7b2419bb256d24da50d53b9" Name="Diagram1">
+        <EntityTypeShape EntityType="Home_front_workesModel.Award" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="Home_front_workesModel.Home_Front_workers" Width="1.875" PointX="0.5" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Home_front_workesModel.Home_Front_workers_with_awards" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Home_front_workesModel.Home_Front_workers_position" Width="3.25" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Home_front_workesModel.Post" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Home_front_workesModel.sysdiagram" Width="1.5" PointX="8.25" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="Home_front_workesModel.FK_Home_Front_workers_with_awards_Awards" ManuallyRouted="false" />
+        <AssociationConnector Association="Home_front_workesModel.FK_Home_Front_workers_with_awards_Home_Front_workers" ManuallyRouted="false" />
+        <AssociationConnector Association="Home_front_workesModel.FK_Home_Front_workers_position_Home_Front_workers" ManuallyRouted="true" >
+          <ConnectorPoint PointX="2.375" PointY="3.53125" />
+          <ConnectorPoint PointX="4.8697891666666671" PointY="3.5312499999999996" />
+          <ConnectorPoint PointX="5.0364558333333331" PointY="3.53125" />
+          <ConnectorPoint PointX="5.40625" PointY="3.53125" />
+          <ConnectorPoint PointX="5.40625" PointY="2.9225878906249996" />
+        </AssociationConnector>
+        <AssociationConnector Association="Home_front_workesModel.FK_Home_Front_workers_position_Post" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
